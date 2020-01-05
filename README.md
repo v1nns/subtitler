@@ -11,14 +11,14 @@ In order to execute it, you must install the following packages using pip:
 ### Usage:
 If you have python in your path, simply drag and drop files and folders you wish to get subtitles from on subtitler.py
 
-#### Windows:
-* Place subtitler.py file to C:/.
+##### Windows:
+* Place subtitler.py file to C:/
 
 * Place the Subtitle.cmd in sendto folder in windows (can be accessed by typing shell:sendto in address bar and must change the PATH variable to python folder).
 
 * Right click the movie file (not the movie folder). You can also select multiple files and click sendto -> Subtitle.cmd
 
-#####Linux using Nautilus file manager:
+##### Linux using Nautilus file manager:
 * Install python
 
 * Copy Subtitle.sh to ~/.local/share/nautilus/scripts/ (Ubuntu 13.04 or above) OR ~/.gnome2/nautilus-scripts/ (Ubuntu 12.10 and below) folder (note: must change the path pointing to python script).
