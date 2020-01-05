@@ -3,13 +3,13 @@ IFS="
 "
 
 for line in $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS; do
-        full_path="/home/"$USER"/projects/OpenSubtitlesDownload/"OpenSubtitlesDownload.py
+        full_path="/home/"$USER"/projects/subtitler/"subtitler.py
         #python $full_path $line 
 	output="$(python3 "$full_path" "$line" 2>&1)"
        	echo "$output" #| tee out.txt	
 done
 
-notify-send "Script executado!"
+notify-send "Script executed with success!"
 
 IFS=$IFS_BAK
 
